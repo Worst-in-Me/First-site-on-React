@@ -1,0 +1,56 @@
+.question {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 0 50px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    
+}
+
+.form_question__wrap {
+    width: 60vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 0.3em solid var(--color-orange);
+}
+
+.form2 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.form2 input {
+    height: 40px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1150px) {
+    .form2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form2 div {
+        width: 80%;
+        padding-bottom: 10px;
+    }
+
+    .form2 input {
+        width: 100%;
+    }
+
+}

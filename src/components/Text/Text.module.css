@@ -1,0 +1,23 @@
+.text_headline_1 {
+    font-size: calc(12px + 3vw);
+}
+
+.text_headline_2 {
+    font-size: calc(12px + 2.1vw);
+}
+
+.text_size_s {
+    font-size: calc(12px + 0.1vw);
+}
+
+.text_size_m {
+    font-size: calc(14px + 0.3vw);
+}
+
+.text_size_l {
+    font-size: calc(12px + 0.7vw);
+}
+
+.text_size_xl {
+    font-size: calc(12px + 1vw);
+}

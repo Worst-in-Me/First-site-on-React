@@ -1,0 +1,27 @@
+.why {
+    width: 100%;
+
+    padding: 50px 0 50px 0;
+
+    background-color: var(--color-light-gray);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.why__cards {
+    width: 80vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media  screen and (max-width: 880px) {
+    .why__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
